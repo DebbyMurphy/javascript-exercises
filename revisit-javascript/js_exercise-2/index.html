@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction to JavaScript</title>
+        <meta name="description" content="Online Shop">
+        <meta name="author" content="She Codes">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Hurry, 30% Off Today Only!</h1>
+
+            <nav>
+                <a class="nav-item" href="#">Home</a>
+                <a class="nav-item" href="#">Cart</a>
+            </nav>
+
+        </header>
+
+        <div id="wrapper">
+
+            <div id="content">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="Gangsta dog coat.">
+                    <div class="card-text">
+                        <h3>Gangsta dog coat</h3>
+                        <P>$</P><P class="price">80</P>
+                        <input type="button" onclick="addToCart()" value="Add To Cart">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1545249390-6bdfa286032f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=597&q=80" alt="Cat scratching post">
+                    <div class="card-text">
+                        <h3>Mini Cat Scratcher</h3>
+                        <P>$</P><P id="price">60</P>
+                        <input type="button" onclick="addToCart()" value="Add To Cart">
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1522444195799-478538b28823?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Doggie bed.">
+                    <div class="card-text">
+                        <h3>Doggie 'Cloud' Bed</h3>
+                        <P>$</P><P id="price">70</P>
+                        <input type="button" onclick="addToCart()" value="Add To Cart">
+                    </div>
+                </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

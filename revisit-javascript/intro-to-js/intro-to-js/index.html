@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction to JavaScript</title>
+        <meta name="description" content="JavaScript Demo">
+        <meta name="author" content="She Codes">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Week 13, JS Exercise 1</h1>
+        </header>
+
+        <div id="wrapper">
+            <div id="starter-div" class="component">
+            </div>
+
+            <div id="colour" class="component">
+                <h2>Background Colour</h2>
+                <p>Pick a colour:</p>
+                <input type="button" onclick="changeColour('#f74850')" value="red">
+                <input type="button" onclick="resetColour()" value="reset">
+                <input type="button" onclick="changeColour('#ff33ca')" value="pink">
+            </div>
+
+            <div id="on-off" class="component">
+                <h2>Class Toggle</h2>
+                <div id="class-toggle-containter">
+                    <input type="button" onclick="toggleLightbulb()" value="toggle light">
+                    <div id="toggle-wrapper">
+                        <div id="light"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

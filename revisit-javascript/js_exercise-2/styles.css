@@ -1,0 +1,70 @@
+body {
+    background-color: #8246AF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    height: calc(100% - 14px);
+}
+
+header {
+    text-align: center;
+}
+
+header nav a {
+    color: #fda103;
+    font-size: 20px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+header nav {
+    padding: 5px;
+}
+
+div.card {
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid #fda103;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div.card img {
+    object-fit: cover;
+    width: 200px;
+}
+
+div.card a {
+    border: 2px solid #fda103;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fda103;
+    text-align: center;
+}
+
+div.card a:hover {
+    background-color: #fda103;
+    color: #fff;
+}
+
+/* MY CODE HERE */
+
+div.card {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.card-text {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5px;
+}
