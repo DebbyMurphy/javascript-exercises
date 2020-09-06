@@ -1,13 +1,7 @@
-let number = 0;
+let carts = document.querySelectorAll('.add-cart');
 
-function plusOne() {
-    var count = document.getElementById('number');
-    number++;
-    count.innerHTML = number;
-}
-
-function minusOne() {
-    var count = document.getElementById('number');
-    number--;
-    count.innerHTML = number;
+for (let i=0; i < carts.length; i++) {
+    carts[i].addEventListener('click', () => {
+        console.log("added to cart");
+    })
 }
