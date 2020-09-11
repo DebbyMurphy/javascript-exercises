@@ -5,3 +5,15 @@ for (let i=0; i < carts.length; i++) {
         console.log("added to cart");
     })
 }
+
+
+--------------------------------------------------------------------------------------
+
+let product-name = "Product Name"
+
+function addProductName() {
+    // var count = document.getElementById('number');
+    // number--;
+    // count.innerHTML = number;
+    return product-name
+}
